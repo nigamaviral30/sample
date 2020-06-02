@@ -1,0 +1,160 @@
+﻿<html>
+<head>
+<style>
+
+body {
+  background-color: lightblue;
+}
+
+div {
+  border: 1px solid black;
+  background-color: yellow ;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
+
+p {text-align: center;}     <!-- align in centre all p-->
+
+
+
+h1{
+color:blue;                                         
+background-color: yellow;
+}
+
+
+.center {                            
+  display: block;                                 
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+
+.button {                                    // Set Button
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px; 
+  cursor: pointer;
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+
+
+</style>
+</head>
+
+
+
+
+
+
+
+
+
+<body>
+<img src="KIET.jpg" alt="Paris" class="center">
+<h1 style="text-align:center">KIET</h1>
+
+<div>
+<div class="myDiv">
+
+<h1>Departments</h1>
+
+<table border= "1">
+<tr>
+<th> Year of establishment </th> <th> Department name </th>
+</tr>
+
+<tr>
+<td rowspan ="2" >computer science</td> <td> 1996 </td>
+</tr>
+
+<tr>
+<td> 2000</td>
+</tr>
+
+<tr>
+<td>   IT   </td> <td> 1998 </td>
+</tr>
+
+<tr>
+<td  > ECE </td> <td> 1996 </td>
+</tr>
+
+<tr>
+<td > EEE</td> <td> 1999 </td>
+</tr>
+
+</table>
+</div>
+</div>
+
+
+
+<p>Placement Record</p>
+
+<table>
+<tr><th>Department</th><th>2018</th><th>2020</th></tr>
+<tr><td>CS</td><td>80</td><td>85</td></tr>
+<tr><td>IT</td><td>85</td><td>90</td></tr>
+<tr><td>EC</td><td>60</td><td>80</td></tr>
+</table>
+
+
+<div class="myDiv">
+<div>
+  <h1>welcome</h1>
+<a href=" https://www.kiet.edu/  /">KIET WEBSITE</a>
+
+  <p>Link is available here</p>
+</div>
+</div>
+
+
+
+<h1>Survey</h1>
+<p1> Are You satisfied with the provided information</p1>                            <!--Button-->
+
+<button class="button button1">YES</button>
+<button class="button button2">No</button>
+
+
+
+
+<h1> Result of survey</h1>
+
+<p>No. people satisfied</p>
+
+<label for="c">No:</label>
+<meter id="c" value="2" min="0" max="10">2 out of 10</meter><br>                              <!--Meter-->
+
+<label for="d">Yes:</label>
+<meter id="d" value="0.6">60%</meter>
+
+<p><strong>This Data May not be accurate</strong> </p>
+
+
+<h1>The Progress Report</h1>
+
+<label for="file">Students Satisfied:</label>                                                                      <!--Progress-->
+<progress id="file" value="32" max="100"> 32% </progress>
+
+<a href=" https://www.kiet.edu/ "> <img src ="KIET.jpg" alt= "KIET WEBSITE"/></a>
+
+</body>
+</html>
